@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+  Name: Chingpo Lin
+  Date: Dec 10, 2020
+  Section: CSE 154 AI
+  TA: Tara Wueger
+  This is a html file: zoomingo.html. It control the wording and button
+  about the game zoomingo.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to CSE 154's Zoomingo!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="zoomingo.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2>Welcome to CSE 154's Zoomingo!</h2>
+    </header>
+    <main>
+      <div id="prepare">
+        <div>
+          <label for="name">Enter your name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <p>Choose a board size:
+          <label for="size-select">
+            <select id="size-select">
+              <option value="0" selected>--Please choose a board size--</option>
+              <option value="9">3x3</option>
+              <option value="25">5x5</option>
+              <option value="49">7x7</option>
+              <option value="81">9x9</option>
+            </select>
+          </label>
+          <button id="new-game">New Game</button>
+          <button id="reset">Reset</button>
+          <button id="resume" disabled>Resume Game?</button>
+        </p>
+        <p id="error"></p>
+        <p id="message" class="hidden"></p>
+      </div>
+      <div id="board"></div>
+      <div id="end">
+        <button id="bingo">Bingo!</button>
+      </div>
+    </main>
+  </body>
+</html>

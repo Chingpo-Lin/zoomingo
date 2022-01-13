@@ -1,0 +1,12 @@
+---
+:id: 59380546
+:submitters:
+- :name: Ching-Po Lin
+  :email: ljb123@uw.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2020-12-14 09:28:42.828868000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2020-12-14 01:28:42.828868000 Z
+:status: processed
+:score: 21.0

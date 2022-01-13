@@ -1,0 +1,91 @@
+/*
+  Name: Chingpo Lin
+  Date: Dec 10, 2020
+  Section: CSE 154 AI
+  TA: Tara Wueger
+  This is a css file: styles.css, for my decoration of zoomingo.html.
+  It decorates what the page look like, and regulate the display of
+  the board and all words and buttons.
+*/
+
+body {
+  background-color: goldenrod;
+  text-align: center;
+}
+
+body, main {
+  margin: auto;
+}
+
+main {
+  width: 80%;
+}
+
+button {
+  font-size: 15px;
+}
+
+#end {
+  margin-top: 50px;
+}
+
+#bingo {
+  font-size: 20px;
+  background-color: deeppink;
+}
+
+.scenario {
+  padding: 10px;
+  margin: 1px;
+}
+
+.selected, button {
+  background-color: aquamarine;
+}
+
+#board {
+  border-style: solid;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  color: purple;
+}
+
+#board, .square {
+  display: flex;
+}
+
+.square {
+  border-style: dashed;
+  justify-content: center;
+  background-size: 100px;
+  color: white;
+  height: 60px;
+  width: 60px;
+}
+
+#error {
+  color: red;
+  font-style: oblique;
+}
+
+.hidden {
+  display: none;
+}
+
+.three {
+  width: 30%;
+}
+
+.five {
+  width: 16%;
+}
+
+.seven {
+  width: 11%;
+}
+
+.nine {
+  width: 8%;
+}
